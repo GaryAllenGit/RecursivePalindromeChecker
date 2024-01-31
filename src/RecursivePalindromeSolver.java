@@ -1,4 +1,4 @@
-class RecursivePalondromeSolver {
+class RecursivePalindromeSolver {
     public boolean isPalindrome(String s) {
         if (s.length() <= 1)
             // if the string is 0 or 1 chars in length, it is a palindrome

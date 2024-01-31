@@ -1,6 +1,6 @@
 public class RecursivePalindromeTester {
     public static void main(String[] args) {
-        RecursivePalondromeSolver solver = new RecursivePalondromeSolver();
+        RecursivePalindromeSolver solver = new RecursivePalindromeSolver();
 
         // a list of words to use for testing
         String[] words = {"madam", "toot", "hello"};
