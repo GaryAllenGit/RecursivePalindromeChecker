@@ -23,11 +23,21 @@ class RecursivePalindromeSolverTest {
 
     @org.junit.jupiter.api.Test
     void isPalindrome2() {
-        assertTrue(solver.isPalindrome("toot"));
+        assertTrue(solver.isPalindrome("A"));
     }
 
     @org.junit.jupiter.api.Test
     void isPalindrome3() {
+        assertTrue(solver.isPalindrome("toot"));
+    }
+
+    @org.junit.jupiter.api.Test
+    void isPalindrome4() {
         assertTrue(solver.isPalindrome("madam"));
+    }
+
+    @org.junit.jupiter.api.Test
+    void isPalindrome5() {
+        assertTrue(solver.isPalindrome(""));
     }
 }
